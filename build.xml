@@ -216,7 +216,7 @@
 
 	<!-- Generate Facility Jad File -->
 	<target name="generate-facility-jad" depends="package-facility">
-		<wtkjad jadfile="dist/DHISMobile-Aggregate.jad" jarfile="dist/DHISMOBile-Aggregate.jar" config="${cldc-version}" profile="${midp-version}" version="${midlet-version}" vendor="${midlet-vendor}" description="${midlet-description}" name="${midlet-name}" update="true">
+		<wtkjad jadfile="dist/DHISMobile-Aggregate.jad" jarfile="dist/DHISMobile-Aggregate.jar" config="${cldc-version}" profile="${midp-version}" version="${midlet-version}" vendor="${midlet-vendor}" description="${midlet-description}" name="${midlet-name}" update="true">
 			<midlet name="${midlet-name}" class="${midlet-facilityclass}" icon="${icon}" />
 		</wtkjad>
 	</target>
